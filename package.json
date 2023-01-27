@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server" 
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/Destr0it/RoboChat#readme",
   "dependencies": {
+    "cookie": "^0.5.0",
+    "crypto": "^1.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
     "socket.io": "^4.5.4",
     "sqlite": "^4.1.2",
     "sqlite3": "^5.1.2"
